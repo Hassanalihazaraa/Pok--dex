@@ -1,4 +1,11 @@
-export const searchInput = document.querySelector("#search-input");
-export const displayPokemon = document.querySelector(".displayPokemon");
-export const pokemonPic = document.querySelector(".pokemonPic");
-export const moveList = document.querySelector(".move-list");
+export const searchButton = document.querySelector(".searchButton");
+export const searchInput = document.querySelector(".searchInput");
+export const displayPokemon = document.querySelector(".pokemonPic");
+export const moveList = document.querySelector(".moveList");
+export const idLabel = document.querySelector(".id-label");
+export const pokemonId = document.querySelector(".id");
+export const description = document.querySelector(".description");
+export const evolutionImage = document.querySelector(".evoImage");
+export const evolutionName = document.querySelector(".evoName");
+export const previousBtn = document.querySelector(".previous");
+export const nextBtn = document.querySelector(".next");
