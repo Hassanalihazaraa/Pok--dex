@@ -166,6 +166,32 @@ h2 {
   transform: translateY(4px);
 }
 
+.id-label {
+  display: none;
+  font-family: 'Fredoka One', cursive;
+  font-size: 20px;
+}
+
+.pokemonPic {
+  width: 70%;
+  height: 70%;
+}
+
+.id {
+  font-size: 1.5rem;
+}
+
+.moveList {
+  list-style-type: none;
+  font-family: 'Fredoka One', cursive;
+  font-size: 20px;
+}
+
+//evolution
+.evoName {
+  font-family: 'Fredoka One', cursive;
+  font-size: 20px;
+}
 
 .pokeLogo {
   max-width: 150px;
