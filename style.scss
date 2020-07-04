@@ -182,6 +182,7 @@ h2 {
 }
 
 .moveList {
+  text-align: center;
   list-style-type: none;
   font-family: 'Fredoka One', cursive;
   font-size: 20px;
@@ -191,6 +192,17 @@ h2 {
 .evoName {
   font-family: 'Fredoka One', cursive;
   font-size: 20px;
+}
+
+.evolution {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.evoImage {
+  width: 50%;
+  height: 50%;
 }
 
 .pokeLogo {

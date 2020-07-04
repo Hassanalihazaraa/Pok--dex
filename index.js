@@ -78,6 +78,8 @@ const AllMoves = (data) => {
     random();
     fourMoves = pokemonMoves.slice(0, 4);
 
+    moveList.textContent = " ";
+
     //generate four lists
     for (let i = 0; i < fourMoves.length; i++) {
         let fourList = document.createElement("li");
